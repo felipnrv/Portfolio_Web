@@ -192,8 +192,11 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
-  top: 160px;
+  top: 5px;
   left: 10px;
+  margin-bottom: 10px;
+  
+
 }
 
 /* Footer */
@@ -318,7 +321,40 @@ body {
     font-weight: bold;
   }
 
+.rounded-box {
+    display: inline-block; /* Ajusta el ancho del cuadro al contenido */
+    padding: 10px 20px; /* Espacio interno para darle forma y tamaño */
+    background-color: #222; /* Color de fondo del cuadro */
+    color: #fff; /* Color del texto */
+    border-radius: 50px; /* Hace que el cuadro sea redondeado */
+    text-align: center; /* Centra el texto dentro del cuadro */
+    font-size: 16px; /* Tamaño de la fuente */
+    left: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+.h2-titulo {
+    
+    font-weight: bold; /* Hace el texto más grueso */
+    color: #fff; /* Cambia el color del texto */
+    text-align: left; /* Centra el título */
+    margin-bottom: 100px; /* Añade un margen inferior */
+    margin-top: 0px; /* Margen superior opcional */
+    margin-right: 13px;
+    font-size: 28px;
+  }
+  .large-icon-gh {
+    font-size: 1.5em; /* Ajusta el valor según tus necesidades */
+    margin-bottom: 8px;
+    margin-top: 10px;
+  }
+  .large-icon-web{
+    font-size: 1.5em; /* Ajusta el valor según tus necesidades */
+    margin-bottom: 10px;
+    margin-top: 8px;
 
+  }
+  
 
 /* Responsiveness */
 
