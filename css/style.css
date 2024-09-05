@@ -354,6 +354,16 @@ body {
     margin-top: 8px;
 
   }
+  .h2-large-titulo {
+    
+    font-weight: bold; /* Hace el texto más grueso */
+    color: #fff; /* Cambia el color del texto */
+    text-align: left; /* Centra el título */
+    margin-bottom: 100px; /* Añade un margen inferior */
+    margin-top: 0px; /* Margen superior opcional */
+    margin-right: 13px;
+    font-size: 20px;
+  }
   
 
 /* Responsiveness */
